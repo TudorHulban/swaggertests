@@ -1,0 +1,2 @@
+# swaggertests
+Testing go-swagger.
