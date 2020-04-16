@@ -1,2 +1,27 @@
-paths: {}
+basePath: /
+consumes:
+- application/json
+info:
+  description: Documentation for Product API
+  title: helps with HTTP route handling.
+  version: 1.0.0 (git tag)
+paths:
+  /r1:
+    get:
+      operationId: HTTPResponse
+      responses:
+        "200":
+          $ref: '#/responses/OK'
+      summary: Route r1 does R1.
+  /r2:
+    get:
+      operationId: HTTPResponse
+      responses:
+        "200":
+          $ref: '#/responses/OK'
+      summary: Route r1 does R1.
+produces:
+- application/json
+schemes:
+- http
 swagger: "2.0"
