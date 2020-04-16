@@ -1,7 +1,3 @@
-// Package main is used for testing Swagger file generation.
-//
-// Documentation for API.
-//
 package main
 
 import (

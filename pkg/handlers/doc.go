@@ -1,4 +1,4 @@
-// Package handlers helps with HTTP route handling.
+// Package handlers Helps with HTTP route handling.
 //
 // Documentation for Product API
 //
@@ -11,6 +11,7 @@
 //
 //	Produces:
 //	- application/json
+//
 //
 // swagger:meta
 package handlers

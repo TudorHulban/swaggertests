@@ -3,23 +3,26 @@ consumes:
 - application/json
 info:
   description: Documentation for Product API
-  title: helps with HTTP route handling.
+  title: Helps with HTTP route handling.
   version: 1.0.0 (git tag)
 paths:
   /r1:
     get:
-      operationId: HTTPResponse
+      description: |-
+        This is description line 1.
+        This is description line 2.
+      operationId: ThisIsOperationID
       responses:
         "200":
           $ref: '#/responses/OK'
-      summary: Route r1 does R1.
+      summary: This is a summary of the route.
   /r2:
     get:
       operationId: HTTPResponse
       responses:
         "200":
           $ref: '#/responses/OK'
-      summary: Route r1 does R1.
+      summary: Route r2 does R2. This is a summary of the route.
 produces:
 - application/json
 schemes:
