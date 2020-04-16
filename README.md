@@ -4,6 +4,10 @@
 ```html
 https://github.com/go-swagger/go-swagger/releases
 ```
+or
+```
+GO111MODULE=off go get -u github.com/go-swagger/go-swagger/cmd/swagger
+```
 #### Swagger editor
 ```
 docker pull swaggerapi/swagger-editor
