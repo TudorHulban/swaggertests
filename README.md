@@ -15,5 +15,6 @@ https://goswagger.io/
 ```
 ### Resources
 ```html
+https://medium.com/@pedram.esmaeeli/generate-swagger-specification-from-go-source-code-648615f7b9d9
 https://www.youtube.com/watch?v=07XhTqE-j8k
 ```
