@@ -12,4 +12,5 @@ docker run -d -p 8001:8080 swaggerapi/swagger-editor
 ### Resources
 ```html
 https://www.youtube.com/watch?v=07XhTqE-j8k
+https://github.com/swaggo/swag#declarative-comments-format
 ```
