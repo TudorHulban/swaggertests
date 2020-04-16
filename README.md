@@ -9,8 +9,11 @@ https://github.com/go-swagger/go-swagger/releases
 docker pull swaggerapi/swagger-editor
 docker run -d -p 8001:8080 swaggerapi/swagger-editor
 ```
+### Documentation
+```
+https://goswagger.io/
+```
 ### Resources
 ```html
 https://www.youtube.com/watch?v=07XhTqE-j8k
-https://github.com/swaggo/swag#declarative-comments-format
 ```
