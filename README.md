@@ -13,6 +13,8 @@ GO111MODULE=off go get -u github.com/go-swagger/go-swagger/cmd/swagger
 docker pull swaggerapi/swagger-editor
 docker run -d -p 8001:8080 swaggerapi/swagger-editor
 ```
+### Run
+Use makefile target to generate swagger file.
 ### Documentation
 ```
 https://goswagger.io/
