@@ -15,6 +15,11 @@ docker run -d -p 8001:8080 swaggerapi/swagger-editor
 ```
 ### Run
 Use makefile target to generate swagger file.
+### Validate
+Use makefile target or below to validate swagger file.
+```
+swagger validate ./swagger.yaml
+```
 ### Documentation
 ```
 https://goswagger.io/
